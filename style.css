@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  header img {
+    height: 165px;
+    position: absolute;
+    left: 101px;
+    top: -38px;
+  }
+  
+  .languagemenu select {
+    position: absolute;
+    right: 270px;
+    top: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    padding: 1px;
+    margin: 10px;
+  }
+  
+  .languagemenu option {
+    background-color: rgba(40, 38, 38, 0.544);
+    border: 0;
+  }
+  
+  .button1 {
+    position: absolute;
+    right: 175px;
+    top: 28px;
+    background-color: rgb(178, 16, 23);
+    font-size: 15px;
+    padding: 3px;
+    height: 35px;
+    width: 75px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+  }
+  
+  body {
+    position: relative;
+    background-color: rgb(30, 30, 30);
+  }
+  
+  .container .page1 {
+    background-image: url(./images//netBackground.png);
+    background-repeat: none;
+    background-position: center left;
+    background-size: cover;
+    background-size: 110%;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .page1backcolor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.637);
+    font-size: 37px;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .page1content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+    width: 1010px;
+    height: 500px;
+    word-wrap: break-word;
+  }
+  
+  h2 {
+    font-size: 50px;
+  }
+  
+  p2 {
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+  }
+  
+  p2 {
+    font-size: 20px;
+    margin: 10px;
+    margin-bottom: 0;
+  }
+  
+  .mailbox {
+    position: relative;
+  
+    width: 700px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  .mailbox input {
+    background-color: rgba(28, 26, 26, 0.64);
+    border: 1px solid white;
+    height: 50px;
+    width: 380px;
+    margin: 10px;
+    border-radius: 3px;
+    padding: 10px;
+    padding-top: 25px;
+    color: aliceblue;
+  }
+  
+  .mailbox label {
+    position: absolute;
+    left: 30px;
+    font-size: 20px;
+    transition: transform 1s;
+  }
+  
+  .mailbox input:valid~label,
+  /*  ------ improper behaviour --------------- */
+  .mailbox input:focus~label {
+    transform: translateY(-10px) translateX(-30px) scale(0.7);
+  }
+  
+  .button2 {
+    background-color: rgb(178, 16, 23);
+    font-size: 25px;
+    padding: 5px;
+    width: auto;
+    height: 50px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0;
+    color: white;
+  }
+  
+  /* --------------- page 2------------------ */
+  .page2 {
+    height: 80vh;
+    width: auto;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .page2content {
+    height: inherit;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contentp2 {
+    position: relative;
+    width: 650px;
+    left: 180px;
+  }
+  
+  h3 {
+    font-size: 45px;
+    margin: 10px;
+    color: aliceblue;
+  }
+  
+  p3 {
+    font-size: 28px;
+    margin: 10px;
+    color: aliceblue;
+  }
+  
+  /* ------------------page3------------------------------------------ */
+  .page3 {
+    height: 80vh;
+    width: auto;
+    background-color: black;
+  }
+  
+  .page3content {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .page3content img {
+    position: absolute;
+    left: 150px;
+  }
+  
+  .contentp3 {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+  }
+  
+  .contentp3 h3 {
+    font-size: 55px;
+    margin: 10px;
+    color: aliceblue;
+  }
+  
+  
+  /* ------------------page4------------------------------------------ */
+  
+  .page4 {
+    position: relative;
+    height: 80vh;
+    width: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .contentp4 {
+    position: absolute;
+    width: 600px;
+    left: 100px;
+  }
+  
+  .page4 img {
+    position: absolute;
+    height: 370px;
+    top: 10%;
+    right: 200px;
+  }
+  
+  /* ------------------page5------------------------------------------ */
+  
+  .page5 {
+    position: relative;
+    height: 80vh;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .page5 #children {
+    width: auto;
+    height: auto;
+    position: relative;
+    left: 160px;
+  }
+  
+  .page5 img {
+    height: 430px;
+  }
+  
+  .page5 .contentp5 {
+    width: 470px;
+    position: absolute;
+    right: 190px;
+    margin: 20px;
+  }
+  
+  h3 {
+    font-size: 55px;
+    margin: 10px;
+  }
+  
+  p3 {
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  /* ------------------page6------------------------------------------ */
+  
+  .page6 {
+    height: 130vh;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+  }
+  
+  .contentp6 {
+    color: aliceblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contentp6 h1 {
+    position: absolute;
+    font-size: 50px;
+    top: 45px;
+  }
+  
+  .contentp6 details {
+    position: relative;
+    top: 150px;
+    height: 70px;
+      background-color: rgba(65, 65, 65);
+    width: 80%;
+    margin: 10px;
+    font-size: 25px;
+  }
+  
+  .contentp6 p {
+    margin: 5px;
+    background-color: rgba(65, 65, 65);
+    z-index: 1;
+    width: 100%;
+  } 
+  .box{
+    position: relative;
+    left: 0%;
+    bottom: -200px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   .box p{
+    font-size: 30px;
+    color: aliceblue;
+    
+   }
+   label{
+    color: antiquewhite;
+   }
+  /* -----------------------footer------------------------- */
+  footer {
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    color: aliceblue;
+  }
+  .footercontent {
+    position: relative;
+    margin: 1px 50px 20px 50px ;
+    top: 20%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  
+  .footercontent a {
+    color: aliceblue;
+    margin: 15px;
+  }
+  #nextp{
+    position: absolute;
+    left: 70px;
+    bottom: 100px;
+  }
+  .languagemenu2{
+    position: absolute;
+    width: auto;
+    padding: 10px;
+    top: 200px;
+    left: 340px;
+  }
+  .languagemenu2 select{
+    background-color: transparent;
+    color: aliceblue;
+    border-radius: 3px;
+    width: 120px;
+    height: 30px;
+    padding: 1px;
+    margin: 10px;
+  }
+  .languagemenu2 option {
+    position: absolute;
+    top: 200px;
+    left: 340px;
+  }
